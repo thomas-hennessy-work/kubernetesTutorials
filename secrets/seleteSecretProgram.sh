@@ -1,0 +1,1 @@
+sed 's/{{secretKey}}/280owegfowuye/g' secret.yaml | kubectl delete -f -
